@@ -12,7 +12,7 @@ export default function ProductCard({ product }: ProductCardProps) {
     7 * 24 * 60 * 60 * 1000;
   return (
     <Link
-      href={`/product/${product.id}`}
+      href={`/products/${product.id}`}
       className="card w-full bg-base-100 transition-shadow hover:shadow-xl"
     >
       <figure>
